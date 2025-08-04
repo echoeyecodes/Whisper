@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
+    "target": "ES2019",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "*": ["node_modules/*"]
+    },
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ] /* List of folders to include type definitions from. */
+  },
+  "include": ["**/*.ts", "**/*.json"],
+  "exclude": ["node_modules", "./dist/**/*"]
+}

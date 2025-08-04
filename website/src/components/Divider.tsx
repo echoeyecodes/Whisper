@@ -1,0 +1,9 @@
+import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { cn } from "../lib/utils";
+
+export const Divider = ({
+  className,
+  ...props
+}: DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>) => {
+  return <div className={cn("h-[1px] bg-black/5", className)} {...props} />;
+};
