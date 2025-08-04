@@ -7,6 +7,19 @@ Whisper AI is a web-based tool that allows you to upload audio from sales calls 
 
 ---
 
+## 📸 Screenshots
+
+### Main Dashboard
+![Main Dashboard](screenshot1.png)
+
+### Report Analysis View
+![Report Analysis](screenshot2.png)
+
+### Detailed Analytics
+![Detailed Analytics](screenshot3.png)
+
+---
+
 ## 🔧 Tech Stack
 
 ### Frontend
