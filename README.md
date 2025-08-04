@@ -142,5 +142,5 @@ I spent approximately **3 hours** on this project, focusing on:
 
 ## AI Tools Used
 
-- **ChatGPT** - whisper and o3-mini
+- **ChatGPT** - whisper and gpt-4o-mini
 - **Cursor** - Autocomplete, also helped to fine-tune ui styles
